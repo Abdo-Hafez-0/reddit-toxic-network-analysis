@@ -1,0 +1,58 @@
+You are responsible for Community Detection and Community Analysis.
+
+The preprocessing phase is already completed.
+
+You will use:
+
+* graph_edges.csv
+* graph object/statistics from Member 1
+
+Your tasks are:
+
+1. Detect communities inside the Reddit network.
+2. Implement:
+
+   * Girvan-Newman algorithm,
+   * Louvain Community Detection.
+3. Compute:
+
+   * modularity score,
+   * community sizes,
+   * density inside communities.
+4. Detect:
+
+   * polarized groups,
+   * toxic clusters,
+   * bridge communities.
+5. Visualize communities using:
+
+   * colors,
+   * graph plots,
+   * PyVis interactive graphs.
+6. Compare:
+
+   * toxic vs non-toxic communities,
+   * highly connected vs isolated groups.
+7. Save outputs:
+
+   * community_labels.csv
+   * modularity_results.csv
+
+Required notebook:
+04_community_detection.ipynb
+
+Main libraries:
+
+* networkx
+* python-louvain
+* matplotlib
+* pyvis
+
+IMPORTANT:
+Your work depends on:
+
+* preprocessing,
+* graph construction from Member 1.
+
+Optional:
+You may later integrate toxicity scores from Member 2 for advanced analysis.

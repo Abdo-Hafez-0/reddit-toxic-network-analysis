@@ -1,0 +1,58 @@
+You are responsible for Graph Construction and Exploratory Network Analysis.
+
+The preprocessing phase is already completed and you will work using:
+
+data/processed/graph_edges.csv
+
+Your tasks are:
+
+1. Load the processed graph dataset.
+2. Build a directed graph using NetworkX.
+3. Compute:
+
+   * number of nodes,
+   * number of edges,
+   * average degree,
+   * graph density,
+   * clustering coefficient,
+   * connected components.
+4. Perform Centrality Analysis:
+
+   * Degree Centrality
+   * Betweenness Centrality
+   * Closeness Centrality
+5. Plot:
+
+   * degree distribution,
+   * top influential communities,
+   * centrality comparisons.
+6. Create graph visualizations using:
+
+   * matplotlib,
+   * NetworkX,
+   * or PyVis.
+7. Save results as:
+
+   * centrality_results.csv
+   * graph_statistics.csv
+8. Export graph object if needed for other members.
+
+Required notebook:
+02_network_analysis.ipynb
+
+Main libraries:
+
+* pandas
+* networkx
+* matplotlib
+* pyvis
+
+IMPORTANT:
+Your work depends on preprocessing only.
+
+Your outputs will later be used by:
+
+* Community Detection Lead
+* Simulation Lead
+* Robustness Testing Lead
+* Toxicity Analysis Lead

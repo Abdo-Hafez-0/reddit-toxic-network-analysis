@@ -1,0 +1,62 @@
+You are responsible for Toxicity and Sentiment Analysis.
+
+The preprocessing phase is already completed.
+
+You will use:
+
+* cleaned_data.csv
+* graph_edges.csv
+
+Your tasks are:
+
+1. Analyze the sentiment and toxicity behavior of subreddit interactions.
+2. Use:
+
+   * LINK_SENTIMENT column,
+   * VADER-related properties,
+   * and text feature vectors.
+3. Extract and analyze:
+
+   * positive interactions,
+   * negative interactions,
+   * toxic communities,
+   * negativity ratios.
+4. Create toxicity metrics for each subreddit.
+5. Identify:
+
+   * most toxic subreddits,
+   * most negatively connected communities,
+   * toxicity hubs.
+6. Correlate toxicity with graph centrality metrics from Member 1.
+7. Create visualizations:
+
+   * toxicity distributions,
+   * sentiment comparisons,
+   * toxicity heatmaps,
+   * top toxic communities.
+8. Save outputs as:
+
+   * toxicity_scores.csv
+   * toxic_subreddits.csv
+
+Required notebook:
+03_toxicity_analysis.ipynb
+
+Main libraries:
+
+* pandas
+* nltk
+* textblob
+* matplotlib
+* scikit-learn
+
+IMPORTANT:
+Your work depends on:
+
+* preprocessing,
+* graph statistics from Member 1.
+
+Your outputs will later be used by:
+
+* Simulation Lead
+* Robustness Testing Lead

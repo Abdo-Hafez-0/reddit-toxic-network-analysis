@@ -1,0 +1,55 @@
+You are responsible for Network Robustness Testing.
+
+The preprocessing phase is already completed.
+
+You will use:
+
+* graph object from Member 1,
+* toxicity results from Member 2.
+
+Your tasks are:
+
+1. Simulate Random Failure:
+
+   * randomly remove nodes,
+   * measure graph fragmentation,
+   * measure largest connected component size.
+2. Simulate Targeted Attacks:
+
+   * remove high-degree nodes,
+   * remove toxic hubs,
+   * remove bridge communities.
+3. Compare:
+
+   * random failures vs targeted attacks.
+4. Measure:
+
+   * connectivity changes,
+   * shortest path changes,
+   * fragmentation ratios,
+   * resilience of the network.
+5. Create robustness curves:
+
+   * fraction removed vs connectivity.
+6. Analyze:
+
+   * how removing toxic communities affects propagation.
+7. Save outputs:
+
+   * robustness_results.csv
+   * attack_simulation_results.csv
+
+Required notebook:
+05_robustness_testing.ipynb
+
+Main libraries:
+
+* networkx
+* matplotlib
+* pandas
+
+IMPORTANT:
+Your work depends on:
+
+* graph construction from Member 1,
+* toxicity analysis from Member 2.

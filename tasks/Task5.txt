@@ -1,0 +1,57 @@
+You are responsible for Information Spread Simulation, Visualization, and Final Integration.
+
+The preprocessing phase is already completed.
+
+You will use:
+
+* graph object from Member 1,
+* toxicity analysis from Member 2,
+* community results from Member 3.
+
+Your tasks are:
+
+1. Simulate toxicity/information spread across the network.
+2. Implement:
+
+   * Independent Cascade Model,
+   * SIS Model.
+3. Initialize toxic behavior from selected nodes.
+4. Measure:
+
+   * spread speed,
+   * affected communities,
+   * final spread ratio,
+   * influence of toxic hubs.
+5. Create visualizations and animations for:
+
+   * toxicity propagation,
+   * information diffusion,
+   * spread over time.
+6. Integrate outputs from all members.
+7. Prepare:
+
+   * final graphs,
+   * final visualizations,
+   * presentation figures.
+8. Help prepare:
+
+   * report,
+   * presentation,
+   * GitHub organization.
+
+Required notebook:
+06_spread_simulation.ipynb
+
+Main libraries:
+
+* networkx
+* matplotlib
+* pyvis
+* numpy
+
+IMPORTANT:
+Your work depends on:
+
+* graph construction from Member 1,
+* toxicity analysis from Member 2,
+* community detection from Member 3.
