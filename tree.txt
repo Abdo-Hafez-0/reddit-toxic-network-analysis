@@ -1,0 +1,82 @@
+Folder PATH listing for volume Local Disk
+Volume serial number is 0000009B 66F8:C1B7
+D:\UNI\SEMESTER_7\SOCIAL NETWORKS\PROJECT\PROJECT\REDDIT-TOXIC-NETWORK-ANALYSIS
+|   .gitattributes
+|   .gitignore
+|   README.md
+|   requirements.txt
+|   Social Networks Project.pdf
+|   tree.txt
+|   
++---data
+|   +---processed
+|   |       .gitkeep
+|   |       graph_edges.csv
+|   |       
+|   \---raw
+|           .gitkeep
+|           dataset-sample.txt
+|           
++---docs
+|   +---presentation
+|   |       .gitkeep
+|   |       
+|   \---report
+|           .gitkeep
+|           
++---notebooks
+|   |   01_preprocessing.ipynb
+|   |   02_network_analysis.ipynb
+|   |   03_toxicity_analysis.ipynb
+|   |   04_community_detection.ipynb
+|   |   05_robustness_testing.ipynb
+|   |   06_spread_simulation.ipynb
+|   |   
+|   +---.ipynb_checkpoints
+|   |       02_network_analysis-checkpoint.ipynb
+|   |       
+|   +---data
+|   |   \---processed
+|   |           directed_graph.graphml
+|   |           
+|   +---lib
+|   |   +---bindings
+|   |   |       utils.js
+|   |   |       
+|   |   +---tom-select
+|   |   |       tom-select.complete.min.js
+|   |   |       tom-select.css
+|   |   |       
+|   |   \---vis-9.1.2
+|   |           vis-network.css
+|   |           vis-network.min.js
+|   |           
+|   +---results
+|   |       centrality_results.csv
+|   |       community_labels.csv
+|   |       graph_statistics.csv
+|   |       modularity_results.csv
+|   |       
+|   \---visualizations
+|           centrality_analysis.png
+|           community_detection.png
+|           community_network.html
+|           interactive_network.html
+|           
++---outputs
+|   +---animations
+|   |       .gitkeep
+|   |       
+|   +---figures
+|   |       .gitkeep
+|   |       
+|   \---graphs
+|           .gitkeep
+|           
+\---tasks
+        Task1.txt
+        Task2.txt
+        Task3.txt
+        Task4.txt
+        Task5.txt
+        
