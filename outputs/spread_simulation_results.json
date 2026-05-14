@@ -1,0 +1,34 @@
+{
+  "simulation_models": {
+    "independent_cascade": {
+      "peak_infected": 4779,
+      "final_infected": 4779,
+      "spread_ratio": 0.13357743801883892,
+      "time_to_peak": 12,
+      "average_infected": 2463.846153846154,
+      "spread_speed": 397.8333333333333
+    },
+    "sis_model": {
+      "peak_infected": 13540,
+      "final_infected": 13422,
+      "average_infected": 11976.059405940594,
+      "time_to_peak": 78
+    }
+  },
+  "network_stats": {
+    "total_nodes": 35777,
+    "total_edges": 137821,
+    "initial_toxic_hubs": 5
+  },
+  "toxic_hubs": [
+    "tomorrow",
+    "macsucks",
+    "otheroffmychest",
+    "enoughpaulspam",
+    "rice"
+  ],
+  "affected_communities": {
+    "ic_model": 36,
+    "sis_model": 45
+  }
+}
